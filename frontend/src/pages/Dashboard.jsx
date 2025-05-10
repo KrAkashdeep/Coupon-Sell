@@ -7,7 +7,7 @@ function Dashboard() {
     <div className="flex h-screen bg-gray-50">
       <Sidebar />
       <div className="flex-1 overflow-y-auto">
-        <Outlet /> {/* This will render SellCoupons when navigated */}
+        <Outlet /> {/* This is critical for rendering child components */}
       </div>
     </div>
   );
