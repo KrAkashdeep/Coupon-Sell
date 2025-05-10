@@ -22,11 +22,11 @@ function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <button onClick={()=>navigate("/browse")} className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-shadow duration-300">
+              <button onClick={()=>navigate("/browse")} className="cursor-pointer bg-gradient-to-r from-purple-600 to-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-shadow duration-300">
                 Browse Coupons
                 <ArrowRightIcon className="h-5 w-5 inline-block ml-2" />
               </button>
-              <button className="border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-50 transition-colors">
+              <button onClick={()=>navigate("/howWork")} className="cursor-pointer border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-50 transition-colors">
                 How It Works
               </button>
             </div>

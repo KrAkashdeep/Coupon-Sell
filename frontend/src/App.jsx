@@ -9,6 +9,7 @@ import BuyCoupons from './components/Dashboard/BuyCoupons';
 import AllPurchase from './components/Dashboard/AllPurchase';
 import MySellList from './components/Dashboard/MySellList';
 import Setting from './components/Dashboard/Setting';
+import HowWork from './pages/HowWork';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="settings" element={<Setting/>}/>
         </Route>
         <Route path="/browse" element={<CouponList/>}/>
+        <Route path='/howWork' element={<HowWork/>}/>
       </Routes>
     </Router>
   );
