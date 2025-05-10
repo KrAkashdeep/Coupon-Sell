@@ -29,7 +29,7 @@ function Sidebar() {
       {/* User Profile */}
       <div className="p-6 mb-8">
         <div className="flex items-center gap-3">
-          <div className="bg-gradient-to-r from-purple-600 to-blue-500 p-2 rounded-full">
+          <div className="bg-gradient-to-r from-gray-900 to-purple-900 text-gray-300 p-2 rounded-full">
             <UserCircleIcon className="h-8 w-8 text-white" />
           </div>
           <div>
@@ -50,7 +50,7 @@ function Sidebar() {
             className={({ isActive }) => 
               `flex items-center p-3 rounded-lg transition-colors ${
                 isActive 
-                  ? 'bg-gradient-to-r from-purple-600 to-blue-500 text-white'
+                  ? 'bg-gradient-to-r from-gray-900 to-purple-900 text-white'
                   : 'text-gray-300 hover:bg-gray-800 hover:text-white'
               }`
             }

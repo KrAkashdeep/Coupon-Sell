@@ -9,7 +9,7 @@ function Hero() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           {/* Left Content */}
           <div className="md:w-1/2 text-center md:text-left mb-12 md:mb-0">
-            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-gray-900 to-purple-900 bg-clip-text text-transparent mb-6">
               Unlock Amazing
               <span className="inline-block ml-3">
                 Discounts
@@ -22,7 +22,7 @@ function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <button onClick={()=>navigate("/browse")} className="cursor-pointer bg-gradient-to-r from-purple-600 to-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-shadow duration-300">
+              <button onClick={()=>navigate("/browse")} className="cursor-pointer bg-gradient-to-r from-gray-900 to-purple-900 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-shadow duration-300">
                 Browse Coupons
                 <ArrowRightIcon className="h-5 w-5 inline-block ml-2" />
               </button>

@@ -34,7 +34,7 @@ function Popular() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {coupons.map((coupon, index) => (
             <div key={index} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 group">
-              <div className="relative h-48 bg-gradient-to-r from-purple-600 via-blue-700 to-indigo-800 rounded-t-2xl">
+              <div className="relative h-48 bg-gradient-to-r from-gray-900 to-purple-900 text-gray-300 rounded-t-2xl">
                 <div className="absolute top-4 right-4 bg-red-500 text-white px-4 py-1 rounded-full text-sm font-bold">
                   {coupon.discount}
                 </div>
@@ -49,7 +49,7 @@ function Popular() {
                     <span className="text-gray-500 text-sm">Use code</span>
                     <div className="text-2xl font-bold text-purple-600">{coupon.code}</div>
                   </div>
-                  <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-3 rounded-xl hover:from-purple-700 hover:to-blue-600 transition-colors duration-300">
+                  <button className="bg-gradient-to-r from-gray-900 to-purple-900 text-white px-6 py-3 rounded-xl  transition-colors duration-300">
                     Get Deal
                   </button>
                 </div>
@@ -83,7 +83,7 @@ function Popular() {
                     <h4 className="text-lg font-semibold">{brand.name}</h4>
                     <p className="text-gray-500 text-sm">{brand.coupons} active coupons</p>
                   </div>
-                  <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-4 py-2 rounded-lg hover:from-purple-700 hover:to-blue-600 transition-colors text-sm">
+                  <button className="bg-gradient-to-r from-gray-900 to-purple-900 text-white px-4 py-2 rounded-lg transition-colors text-sm">
                     Shop Now
                   </button>
                 </div>

@@ -24,7 +24,7 @@ function BuyCoupons() {
         <h1 className="text-3xl font-bold text-gray-800">Buy Coupons</h1>
         <button 
           onClick={() => navigate('/browse')}
-          className="flex items-center bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition-colors"
+          className="flex items-center bg-gradient-to-r from-gray-900 to-purple-900 text-white px-6 py-2 rounded-lg transition-colors"
         >
           Browse All Coupons
           <ArrowRightIcon className="h-4 w-4 ml-2" />
@@ -93,7 +93,7 @@ function BuyCoupons() {
                     Expires {coupon.expires}
                   </div>
                 </div>
-                <button className="mt-3 w-full bg-gradient-to-r from-purple-600 to-blue-500 text-white py-1.5 text-sm rounded-md hover:from-purple-700 transition-colors">
+                <button className="mt-3 w-full bg-gradient-to-r from-gray-900 to-purple-900 text-white py-1.5 text-sm rounded-md hover:from-purple-700 transition-colors">
                   View Deal
                 </button>
               </div>

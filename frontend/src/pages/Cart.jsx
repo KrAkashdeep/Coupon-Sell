@@ -146,19 +146,19 @@ const navigate = useNavigate();
                   className="w-full px-4 py-2 border rounded-lg"
                   placeholder="Enter code"
                 />
-                <button className="cursor-pointer px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700">
+                <button className="cursor-pointer px-4 py-2 bg-gradient-to-r from-gray-900 to-purple-900 text-white rounded-lg ">
                   Apply
                 </button>
               </div>
             </div>
 
-            <button className="cursor-pointer w-full bg-gradient-to-r from-purple-600 to-blue-500 text-white py-3 rounded-lg hover:from-purple-700 transition-colors flex items-center justify-center">
+            <button className="cursor-pointer w-full bg-gradient-to-r from-gray-900 to-purple-900  text-white py-3 rounded-lg  transition-colors flex items-center justify-center">
               <LockClosedIcon className="h-5 w-5 mr-2" />
               Secure Checkout
             </button>
 
             <button onClick={()=>navigate('/browse')} className="cursor-pointer w-full mt-4 text-purple-600 hover:text-purple-700 flex items-center justify-center">
-              <ArrowLeftIcon className="h-5 w-5 mr-2" />
+              <ArrowLeftIcon className="h-5 w-5 mr-2 " />
               Continue Shopping
             </button>
           </div>

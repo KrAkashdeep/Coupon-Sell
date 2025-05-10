@@ -85,7 +85,7 @@ function CouponList() {
                   <CalendarIcon className="h-5 w-5 text-purple-600 mr-2" />
                   <span className="text-gray-600">Expires {coupon.expires}</span>
                 </div>
-                  <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-2 rounded-lg hover:from-purple-700 hover:to-blue-600 transition-colors">
+                  <button className="bg-gradient-to-r from-gray-900 to-purple-900 text-white px-6 py-2 rounded-lg hover:from-purple-700 hover:to-blue-600 transition-colors">
                     Get Deal
                   </button>
                 </div>

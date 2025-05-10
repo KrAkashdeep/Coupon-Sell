@@ -95,7 +95,7 @@ function HowWork() {
         </div>
 
         {/* Stats */}
-        <div className="bg-gradient-to-r from-purple-600 to-blue-500 text-white rounded-2xl p-12 mb-20">
+        <div className="bg-gradient-to-r from-gray-900 to-purple-900 text-white rounded-2xl p-12 mb-20">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold mb-2">50,000+</div>
@@ -156,7 +156,7 @@ function HowWork() {
         {/* CTA */}
         <div className="text-center mt-20">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Saving?</h2>
-          <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-8 py-4 rounded-lg text-lg hover:from-purple-700 transition-colors">
+          <button className="bg-gradient-to-r from-gray-900 to-purple-900 text-white px-8 py-4 rounded-lg text-lg  transition-colors">
             Join Now - It's Free
           </button>
         </div>

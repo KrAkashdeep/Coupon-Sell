@@ -78,7 +78,7 @@ function Footer() {
             Made with <HeartIcon className="h-4 w-4 mx-1 text-red-400" /> by CouponMagnet Team
           </p>
           <p className="text-xs mt-2 opacity-75">
-            © 2024 CouponMagnet. All rights reserved.
+            © 2025 CouponMagnet. All rights reserved.
           </p>
         </div>
       </div>

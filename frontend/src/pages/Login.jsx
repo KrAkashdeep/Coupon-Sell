@@ -14,9 +14,9 @@ function Login() {
     <Navbar/>
     
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 flex items-center justify-center p-4">
-      <div className="w-full max-w-4xl bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+      <div className="mt-20 mb-20 w-full max-w-4xl bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
         {/* Illustration Section */}
-        <div className="md:w-1/2 bg-gradient-to-br from-purple-600 to-blue-500 p-12 text-white hidden md:block">
+        <div className="md:w-1/2 bg-gradient-to-r from-gray-900 to-purple-900  p-12 text-white hidden md:block">
           <div className="max-w-xs mx-auto">
             <h2 className="text-3xl font-bold mb-6">Welcome Back!</h2>
             <p className="text-lg mb-8">Unlock exclusive deals and manage your coupons with ease</p>
@@ -31,7 +31,7 @@ function Login() {
         {/* Form Section */}
         <div className="md:w-1/2 p-8 md:p-12">
           <div className="text-center mb-8">
-            <div className="mx-auto bg-gradient-to-r from-purple-600 to-blue-500 w-16 h-16 rounded-2xl flex items-center justify-center mb-4">
+            <div className="mx-auto bg-gradient-to-r from-gray-900 to-purple-900  w-16 h-16 rounded-2xl flex items-center justify-center mb-4">
               <UserIcon className="h-8 w-8 text-white" />
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-2">Login In</h1>
@@ -82,7 +82,7 @@ function Login() {
 
             <button
               type="submit"
-              className="cursor-pointer w-full bg-gradient-to-r from-purple-600 to-blue-500 text-white py-3 rounded-lg hover:from-purple-700 transition-colors"
+              className="cursor-pointer w-full bg-gradient-to-r from-gray-900 to-purple-900 text-white py-3 rounded-lg hover:from-purple-700 transition-colors"
             >
               Sign In
             </button>

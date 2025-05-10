@@ -29,8 +29,8 @@ function HowWork() {
     <section className="py-16 bg-gradient-to-b from-purple-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-            How CouponWorld Works
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-gray-900 to-purple-900 bg-clip-text text-transparent">
+            How CouponMagnet Works
           </h2>
           <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
             Your marketplace for digital and physical coupons - simple, secure, and satisfying
@@ -43,7 +43,7 @@ function HowWork() {
               <div className="absolute inset-0 bg-gradient-to-br from-purple-100 to-blue-100 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10">
                 <div className="mb-6 flex items-center">
-                  <div className="p-4 bg-gradient-to-r from-purple-600 to-blue-500 rounded-xl">
+                  <div className="p-4 bg-gradient-to-r from-gray-900 to-purple-900 text-gray-300 rounded-xl">
                     <step.icon className="h-8 w-8 text-white" />
                   </div>
                   <span className="ml-4 text-2xl font-bold text-gray-700">0{index + 1}</span>
@@ -56,7 +56,7 @@ function HowWork() {
         </div>
 
         <div className="mt-12 text-center">
-          <button className="px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-500 text-white rounded-full hover:from-purple-700 hover:to-blue-600 transition-colors duration-300 text-lg">
+          <button  className="cursor-pointer px-8 py-3 bg-gradient-to-r from-gray-900 to-purple-900 text-white rounded-full transition-colors duration-300 text-lg">
             Get Started Now
           </button>
         </div>

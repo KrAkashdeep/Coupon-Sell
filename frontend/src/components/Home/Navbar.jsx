@@ -31,10 +31,10 @@ function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo Section */}
           <a  className="flex items-center space-x-3">
-            <div className="p-2 bg-gradient-to-r from-purple-600 to-blue-500 rounded-lg">
+            <div className="p-2 bg-gradient-to-r from-gray-900 to-purple-900 text-gray-300 rounded-lg">
               <TicketIcon className="h-7 w-7 text-white" />
             </div>
-            <span onClick={() => navigate('/')} className="cursor-pointer text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
+            <span onClick={() => navigate('/')} className="cursor-pointer text-2xl font-bold bg-gradient-to-r from-gray-900 to-purple-900 bg-clip-text text-transparent">
               CouponMagnet
             </span>
           </a>
@@ -59,7 +59,7 @@ function Navbar() {
 
             <button 
               onClick={() => navigate('/dashboard/sell')}
-              className="cursor-pointer ml-4 px-6 py-2 bg-gradient-to-r from-purple-500 to-blue-400 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center"
+              className="cursor-pointer ml-4 px-6 py-2 bg-gradient-to-r from-gray-900 to-purple-900 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center"
             >
               <RocketLaunchIcon className="h-5 w-5 mr-2" />
               Sell Coupons
