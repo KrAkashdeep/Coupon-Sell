@@ -68,7 +68,7 @@ function Navbar() {
 
           {/* Right Section */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="cursor-pointer flex items-center text-gray-600 hover:text-purple-600">
+            <button onClick={() => navigate('/cart')} className="cursor-pointer flex items-center text-gray-600 hover:text-purple-600">
               <ShoppingCartIcon className="h-6 w-6" />
               <span className="ml-1 font-medium">3</span>
             </button>

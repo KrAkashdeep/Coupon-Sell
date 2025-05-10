@@ -10,6 +10,7 @@ import AllPurchase from './components/Dashboard/AllPurchase';
 import MySellList from './components/Dashboard/MySellList';
 import Setting from './components/Dashboard/Setting';
 import HowWork from './pages/HowWork';
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         </Route>
         <Route path="/browse" element={<CouponList/>}/>
         <Route path='/howWork' element={<HowWork/>}/>
+        <Route path='/cart' element={<Cart/>}/>
       </Routes>
     </Router>
   );
