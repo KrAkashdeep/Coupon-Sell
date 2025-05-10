@@ -73,7 +73,7 @@ function Navbar() {
               <span className="ml-1 font-medium">3</span>
             </button>
             <div className="h-6 w-px bg-gray-200"></div>
-            <button className="cursor-pointer px-5 py-2.5 text-purple-600 font-medium hover:bg-purple-50 rounded-full">
+            <button onClick={()=> navigate('/login')} className="cursor-pointer px-5 py-2.5 text-purple-600 font-medium hover:bg-purple-50 rounded-full">
               Sign In
             </button>
             {/* Desktop Get Started Button */}

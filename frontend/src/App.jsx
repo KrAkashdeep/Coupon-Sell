@@ -11,6 +11,8 @@ import MySellList from './components/Dashboard/MySellList';
 import Setting from './components/Dashboard/Setting';
 import HowWork from './pages/HowWork';
 import Cart from './pages/Cart';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
         <Route path="/browse" element={<CouponList/>}/>
         <Route path='/howWork' element={<HowWork/>}/>
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
       </Routes>
     </Router>
   );
